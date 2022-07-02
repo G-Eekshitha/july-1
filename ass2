@@ -1,0 +1,17 @@
+n=int(input())
+f=0
+for i in range(1,n):
+    if i*i==n:
+        f=1
+        break
+if f==1:
+    print('perfect square')
+else:
+    print('not perfect square ')
+
+
+
+64
+perfect square
+125
+not perfect square 
